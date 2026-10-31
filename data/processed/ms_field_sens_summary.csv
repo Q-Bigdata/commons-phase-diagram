@@ -1,0 +1,13 @@
+coding,mapping,min,median,max
+complete cases,equal_without_2B,0.9474,1.0000,1.0000
+complete cases,no_amnesty_reading,0.0000,1.0000,1.0000
+complete cases,prespecified,0.9474,1.0000,1.0000
+complete cases,strict_2B,0.9474,1.0000,1.0000
+missing = absent,equal_without_2B,0.6880,0.8880,0.8897
+missing = absent,no_amnesty_reading,0.1590,0.8410,0.8906
+missing = absent,prespecified,0.6111,0.8744,0.8915
+missing = absent,strict_2B,0.6128,0.8692,0.8846
+missing = present,equal_without_2B,0.6419,0.8966,0.9581
+missing = present,no_amnesty_reading,0.3231,0.8564,0.9231
+missing = present,prespecified,0.5761,0.8957,0.9573
+missing = present,strict_2B,0.5761,0.8957,0.9573

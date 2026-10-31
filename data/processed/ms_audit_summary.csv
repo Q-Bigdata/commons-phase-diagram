@@ -1,0 +1,4 @@
+block,rows,unique,mixed,cases,successes,ambiguous_cases
+complete,14,10,0,27,19,17
+miss0,43,36,2,69,39,29
+miss1,35,30,2,69,39,13

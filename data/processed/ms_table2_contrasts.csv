@@ -1,0 +1,12 @@
+id,fact,source,calibrated_on,mean_a,mean_b,human_diff,lo,hi,perm_p,human_sign_supported,F1,F2,F3,F2_integer,F2_plaus_yes,n_plaus
+O1,Surplus: mixed > equal,Exp. 1,False,0.3173,0.1541,0.1632,0.0930,0.2267,0.0005,True,yes,yes,yes,yes,12,12
+O2,Surplus: proportional > equal,Exp. 1,False,0.4233,0.1541,0.2692,0.1909,0.3475,0.0005,True,yes,yes,yes,yes,12,12
+O3,Surplus: proportional > mixed,Exp. 1,False,0.4233,0.3173,0.1060,0.0139,0.2057,0.0390,True,no,yes,yes,yes,12,12
+O4,Gini: proportional > mixed,Exp. 1,True,0.3596,0.0868,0.2728,0.2118,0.3340,0.0005,True,yes,yes,yes,yes,12,12
+O5,Gini: proportional > equal,Exp. 1,True,0.3596,0.1505,0.2091,0.1463,0.2707,0.0005,True,yes,yes,yes,yes,12,12
+O6,All four active at end: mixed > equal,Exp. 1,True,0.3000,0.0500,0.2500,0.1000,0.4000,0.0100,True,yes,yes,yes,yes,12,12
+O7,All four active at end: equal > proportional,Exp. 1,True,0.0500,0.0000,0.0500,0.0000,0.1250,0.4863,False,no,yes,no,tie,12,12
+O8,Pool sustained: proportional > mixed,Exp. 1,True,0.5750,0.3000,0.2750,0.0500,0.4750,0.0215,True,tie,yes,yes,yes,11,12
+O9,Surplus: distilled rule > proportional,Exp. 2,False,0.5919,0.4594,0.1326,0.0304,0.2224,0.0120,True,yes,yes,tie,yes,11,12
+O10,Gini: proportional > distilled rule,Exp. 2,False,0.3411,0.1846,0.1565,0.0966,0.2155,0.0005,True,yes,yes,yes,yes,12,12
+O11,Active share: distilled rule > proportional,Exp. 2,False,0.7066,0.5205,0.1861,0.0920,0.2774,0.0005,True,tie,yes,yes,yes,12,12

@@ -1,0 +1,12 @@
+id,fact,outcome,cond_a,cond_b,source,calibrated_on,n_a,n_b,mean_a,mean_b,human_diff,lo,hi,perm_p,human_sign_supported
+O1,Surplus: mixed > equal,eff,E1_mixed,E1_equal,Exp. 1,False,40,40,0.317290,0.154123,0.163167,0.092969,0.226682,0.000500,True
+O2,Surplus: proportional > equal,eff,E1_proportional,E1_equal,Exp. 1,False,40,40,0.423281,0.154123,0.269158,0.190900,0.347495,0.000500,True
+O3,Surplus: proportional > mixed,eff,E1_proportional,E1_mixed,Exp. 1,False,40,40,0.423281,0.317290,0.105990,0.013863,0.205709,0.038981,True
+O4,Gini: proportional > mixed,gini,E1_proportional,E1_mixed,Exp. 1,True,40,40,0.359595,0.086762,0.272833,0.211751,0.334000,0.000500,True
+O5,Gini: proportional > equal,gini,E1_proportional,E1_equal,Exp. 1,True,40,40,0.359595,0.150450,0.209145,0.146292,0.270715,0.000500,True
+O6,All four active at end: mixed > equal,all4,E1_mixed,E1_equal,Exp. 1,True,40,40,0.300000,0.050000,0.250000,0.100000,0.400000,0.009995,True
+O7,All four active at end: equal > proportional,all4,E1_equal,E1_proportional,Exp. 1,True,40,40,0.050000,0.000000,0.050000,0.000000,0.125000,0.486257,False
+O8,Pool sustained: proportional > mixed,sust,E1_proportional,E1_mixed,Exp. 1,True,40,40,0.575000,0.300000,0.275000,0.050000,0.475000,0.021489,True
+O9,Surplus: distilled rule > proportional,eff,E2_heuristic,E2_proportional,Exp. 2,False,40,40,0.591933,0.459378,0.132555,0.030374,0.222362,0.011994,True
+O10,Gini: proportional > distilled rule,gini,E2_proportional,E2_heuristic,Exp. 2,False,40,40,0.341146,0.184617,0.156529,0.096592,0.215494,0.000500,True
+O11,Active share: distilled rule > proportional,act,E2_heuristic,E2_proportional,Exp. 2,False,40,40,0.706562,0.520469,0.186094,0.092027,0.277363,0.000500,True

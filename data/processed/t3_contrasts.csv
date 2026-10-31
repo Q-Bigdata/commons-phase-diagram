@@ -1,0 +1,210 @@
+family,integer,id,fact,calibrated_on,nrep,sim_diff,sim_se,human_diff,human_lo,human_hi,human_supported,cls_1se_0.0,cls_1se_0.005,cls_1se_0.01,cls_1se_0.02,cls_2se_0.0,cls_2se_0.005,cls_2se_0.01,cls_2se_0.02,cls_3se_0.0,cls_3se_0.005,cls_3se_0.01,cls_3se_0.02,cls,in_human_ci
+F1,0,O1,Surplus: mixed > equal,False,10,0.7546451000000001,0.0009130151690354895,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,0,O2,Surplus: proportional > equal,False,10,0.1353437,0.00042993960945437066,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,0,O3,Surplus: proportional > mixed,False,10,-0.6193014,0.0010256141271344692,0.10599,0.013863,0.205709,True,no,no,no,no,no,no,no,no,no,no,no,no,no,False
+F1,0,O4,Gini: proportional > mixed,True,10,0.03411979999999999,0.00025447094573295047,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,0,O5,Gini: proportional > equal,True,10,0.0407888,0.00017126625145920832,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,0,O6,All four active at end: mixed > equal,True,10,1.0,0.0,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,0,O7,All four active at end: equal > proportional,True,10,-0.9996349999999999,5.428832491634274e-05,0.05,0.0,0.125,False,no,no,no,no,no,no,no,no,no,no,no,no,no,False
+F1,0,O8,Pool sustained: proportional > mixed,True,10,0.0,0.0,0.275,0.05,0.475,True,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,False
+F1,0,O9,Surplus: distilled rule > proportional,False,10,0.6834789,0.0004919407699216595,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,0,O10,Gini: proportional > distilled rule,False,10,0.018246099999999998,0.00020155994145662975,0.156529,0.096592,0.215494,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F1,0,O11,Active share: distilled rule > proportional,False,10,9.000000000036757e-07,1.8999999999921775e-06,0.186094,0.092027,0.277363,True,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,False
+F1,1,O1,Surplus: mixed > equal,False,10,0.44935099999999994,0.12206338756855434,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,1,O2,Surplus: proportional > equal,False,10,0.1353246,0.0003944182833264981,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,1,O3,Surplus: proportional > mixed,False,10,-0.3140264,0.12206197979043269,0.10599,0.013863,0.205709,True,no,no,no,no,no,no,no,no,tie,tie,tie,tie,no,False
+F1,1,O4,Gini: proportional > mixed,True,10,0.0431755,0.0029581237794325723,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,1,O5,Gini: proportional > equal,True,10,0.0430148,0.0002904893113352018,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,1,O6,All four active at end: mixed > equal,True,10,0.6,0.16329931618554522,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,1,O7,All four active at end: equal > proportional,True,10,-1.0,0.0,0.05,0.0,0.125,False,no,no,no,no,no,no,no,no,no,no,no,no,no,False
+F1,1,O8,Pool sustained: proportional > mixed,True,10,0.4,0.16329931618554522,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,tie,tie,tie,tie,yes,True
+F1,1,O9,Surplus: distilled rule > proportional,False,10,0.6770833,0.0004993091460541506,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,1,O10,Gini: proportional > distilled rule,False,10,0.020162600000000003,0.00021173753144452793,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F1,1,O11,Active share: distilled rule > proportional,False,10,0.0,0.0,0.186094,0.092027,0.277363,True,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,False
+F2,0,O1,Surplus: mixed > equal,False,10,0.023946699999999998,0.0006077320325055553,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2,0,O2,Surplus: proportional > equal,False,10,0.1388636,0.001279744993695576,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2,0,O3,Surplus: proportional > mixed,False,10,0.11491690000000002,0.00130878468180726,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,0,O4,Gini: proportional > mixed,True,10,0.26269319999999996,0.0016536107549507853,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,0,O5,Gini: proportional > equal,True,10,0.19087759999999998,0.0019521565750045126,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,0,O6,All four active at end: mixed > equal,True,10,0.11285,0.0029486814379010525,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,0,O7,All four active at end: equal > proportional,True,10,0.034,0.0012064640713902572,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,0,O8,Pool sustained: proportional > mixed,True,10,0.0546,0.003001666203960722,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,0,O9,Surplus: distilled rule > proportional,False,10,0.06192829999999998,0.001260475607327119,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,0,O10,Gini: proportional > distilled rule,False,10,0.1723614,0.0018156430522912144,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,0,O11,Active share: distilled rule > proportional,False,10,0.0971277,0.0016841893800216689,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,1,O1,Surplus: mixed > equal,False,10,0.017699899999999998,0.00044146796662448306,0.163167,0.092969,0.226682,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2,1,O2,Surplus: proportional > equal,False,10,0.1331399,0.0009129142402219378,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2,1,O3,Surplus: proportional > mixed,False,10,0.11544000000000001,0.0007488458378657712,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,1,O4,Gini: proportional > mixed,True,10,0.23962119999999998,0.0012422725573185082,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,1,O5,Gini: proportional > equal,True,10,0.17287409999999998,0.0010114265662364635,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,1,O6,All four active at end: mixed > equal,True,10,0.009,0.000547722557505166,0.25,0.1,0.4,True,yes,yes,tie,tie,yes,yes,tie,tie,yes,yes,tie,tie,yes,False
+F2,1,O7,All four active at end: equal > proportional,True,10,0.0015500000000000002,0.000229128784747792,0.05,0.0,0.125,False,yes,tie,tie,tie,yes,tie,tie,tie,yes,tie,tie,tie,tie,True
+F2,1,O8,Pool sustained: proportional > mixed,True,10,0.2977,0.0039017090272511702,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,1,O9,Surplus: distilled rule > proportional,False,10,0.060012899999999994,0.0014332229759841627,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,1,O10,Gini: proportional > distilled rule,False,10,0.1670875,0.0014070851214083966,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2,1,O11,Active share: distilled rule > proportional,False,10,0.09236779999999999,0.0016535080405005605,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2micro,0,O1,Surplus: mixed > equal,False,5,0.022346000000000008,0.000867283114098276,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2micro,0,O2,Surplus: proportional > equal,False,5,0.1318486,0.0014390727083785615,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2micro,0,O3,Surplus: proportional > mixed,False,5,0.10950259999999998,0.002184845317179231,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2micro,0,O4,Gini: proportional > mixed,True,5,0.1866922,0.0021658593998687913,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2micro,0,O5,Gini: proportional > equal,True,5,0.10278800000000002,0.001748339040346581,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2micro,0,O6,All four active at end: mixed > equal,True,5,0.08620000000000001,0.004457016939613312,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2micro,0,O7,All four active at end: equal > proportional,True,5,0.0283,0.0011247221879201995,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2micro,0,O8,Pool sustained: proportional > mixed,True,5,0.08390000000000002,0.007112313266441522,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2micro,0,O9,Surplus: distilled rule > proportional,False,5,0.05112019999999999,0.0026066311860330356,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2micro,0,O10,Gini: proportional > distilled rule,False,5,0.11056300000000001,0.002516725094244502,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2micro,0,O11,Active share: distilled rule > proportional,False,5,0.0822736,0.002387537698131689,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus00,0,O1,Surplus: mixed > equal,False,5,0.022859599999999994,0.0003687989425147554,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus00,0,O2,Surplus: proportional > equal,False,5,0.1381262,0.0008457524696978377,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus00,0,O3,Surplus: proportional > mixed,False,5,0.1152666,0.0009951996081188914,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus00,0,O4,Gini: proportional > mixed,True,5,0.2628858,0.0014042230378397838,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus00,0,O5,Gini: proportional > equal,True,5,0.1893284,0.0006641540935656476,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus00,0,O6,All four active at end: mixed > equal,True,5,0.11159999999999999,0.003776241517699839,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus00,0,O7,All four active at end: equal > proportional,True,5,0.0372,0.002442334948363962,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus00,0,O8,Pool sustained: proportional > mixed,True,5,0.04840000000000003,0.005285357130790691,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus00,0,O9,Surplus: distilled rule > proportional,False,5,0.060783199999999996,0.001985266616855278,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus00,0,O10,Gini: proportional > distilled rule,False,5,0.1724778,0.001877405853831291,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus00,0,O11,Active share: distilled rule > proportional,False,5,0.0966756,0.0008414734458080025,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus01,0,O1,Surplus: mixed > equal,False,5,0.0228066,0.0011449633443914248,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus01,0,O2,Surplus: proportional > equal,False,5,0.13482239999999998,0.0015198426102725207,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus01,0,O3,Surplus: proportional > mixed,False,5,0.1120158,0.0023695164570012987,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus01,0,O4,Gini: proportional > mixed,True,5,0.19098500000000002,0.0016746081631235361,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus01,0,O5,Gini: proportional > equal,True,5,0.10728840000000002,0.001652477763844337,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus01,0,O6,All four active at end: mixed > equal,True,5,0.0891,0.004442409256248236,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus01,0,O7,All four active at end: equal > proportional,True,5,0.027499999999999997,0.0015890248582070706,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus01,0,O8,Pool sustained: proportional > mixed,True,5,0.09810000000000002,0.006487295276153227,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus01,0,O9,Surplus: distilled rule > proportional,False,5,0.05014700000000001,0.0017512085255617068,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus01,0,O10,Gini: proportional > distilled rule,False,5,0.1121482,0.0012825668169729033,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus01,0,O11,Active share: distilled rule > proportional,False,5,0.0830722,0.0016247193726917851,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus02,0,O1,Surplus: mixed > equal,False,5,0.019352,0.0003489508561387997,0.163167,0.092969,0.226682,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2plaus02,0,O2,Surplus: proportional > equal,False,5,0.1357894,0.0009392964707694807,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus02,0,O3,Surplus: proportional > mixed,False,5,0.1164374,0.0010393250983210215,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus02,0,O4,Gini: proportional > mixed,True,5,0.2473878,0.0015265115918328379,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus02,0,O5,Gini: proportional > equal,True,5,0.1896452,0.0014646936676315679,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus02,0,O6,All four active at end: mixed > equal,True,5,0.13230000000000003,0.004859526725927123,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus02,0,O7,All four active at end: equal > proportional,True,5,0.024399999999999998,0.0011224972160321818,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus02,0,O8,Pool sustained: proportional > mixed,True,5,0.026100000000000022,0.005139066063011843,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus02,0,O9,Surplus: distilled rule > proportional,False,5,0.059389000000000004,0.0015980710872799135,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus02,0,O10,Gini: proportional > distilled rule,False,5,0.1601112,0.00224526678592991,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus02,0,O11,Active share: distilled rule > proportional,False,5,0.08017760000000003,0.0013829428621602545,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus03,0,O1,Surplus: mixed > equal,False,5,0.0182098,0.000249768372697588,0.163167,0.092969,0.226682,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2plaus03,0,O2,Surplus: proportional > equal,False,5,0.12291060000000001,0.0010465897285947378,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus03,0,O3,Surplus: proportional > mixed,False,5,0.1047008,0.0011583539787128974,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus03,0,O4,Gini: proportional > mixed,True,5,0.24121739999999997,0.0013298355011053125,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus03,0,O5,Gini: proportional > equal,True,5,0.16975980000000002,0.001177993522902406,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus03,0,O6,All four active at end: mixed > equal,True,5,0.0849,0.0031400636936215172,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus03,0,O7,All four active at end: equal > proportional,True,5,0.0243,0.0021482551058940834,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus03,0,O8,Pool sustained: proportional > mixed,True,5,0.051500000000000004,0.006282913336979903,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus03,0,O9,Surplus: distilled rule > proportional,False,5,0.03934920000000001,0.0006426809006030875,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus03,0,O10,Gini: proportional > distilled rule,False,5,0.14930879999999996,0.001826510974508508,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus03,0,O11,Active share: distilled rule > proportional,False,5,0.07153799999999999,0.001014216051933708,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus04,0,O1,Surplus: mixed > equal,False,5,0.012510200000000004,0.0004526660358365743,0.163167,0.092969,0.226682,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2plaus04,0,O2,Surplus: proportional > equal,False,5,0.1335876,0.0008667730729550897,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus04,0,O3,Surplus: proportional > mixed,False,5,0.1210774,0.0007884956943446168,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus04,0,O4,Gini: proportional > mixed,True,5,0.25688579999999994,0.0011723498368661016,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus04,0,O5,Gini: proportional > equal,True,5,0.18133159999999998,0.00207699881078444,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus04,0,O6,All four active at end: mixed > equal,True,5,0.048799999999999996,0.0022671568097509262,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus04,0,O7,All four active at end: equal > proportional,True,5,0.019,0.000790569415042095,0.05,0.0,0.125,False,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,True
+F2plaus04,0,O8,Pool sustained: proportional > mixed,True,5,0.1253,0.004833735615442776,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus04,0,O9,Surplus: distilled rule > proportional,False,5,0.016418,0.0025034833133056916,0.132555,0.030374,0.222362,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2plaus04,0,O10,Gini: proportional > distilled rule,False,5,0.11179339999999997,0.0009758808636303872,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus04,0,O11,Active share: distilled rule > proportional,False,5,0.06239499999999998,0.0015217242522875209,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus05,0,O1,Surplus: mixed > equal,False,5,0.0343632,0.00134542637851352,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus05,0,O2,Surplus: proportional > equal,False,5,0.1301296,0.002588102192727322,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus05,0,O3,Surplus: proportional > mixed,False,5,0.0957664,0.002630076131977929,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus05,0,O4,Gini: proportional > mixed,True,5,0.2370934,0.0038307004790246934,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus05,0,O5,Gini: proportional > equal,True,5,0.1526656,0.003335570155160884,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus05,0,O6,All four active at end: mixed > equal,True,5,0.1511,0.003776241517699838,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus05,0,O7,All four active at end: equal > proportional,True,5,0.051500000000000004,0.001369306393762915,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus05,0,O8,Pool sustained: proportional > mixed,True,5,0.046000000000000006,0.00998999499499374,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus05,0,O9,Surplus: distilled rule > proportional,False,5,0.105823,0.0016385803001378932,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus05,0,O10,Gini: proportional > distilled rule,False,5,0.1864268,0.004446111946408908,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus05,0,O11,Active share: distilled rule > proportional,False,5,0.1301946,0.0017279053099056086,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus06,0,O1,Surplus: mixed > equal,False,5,0.026653399999999994,0.0007084561807197364,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus06,0,O2,Surplus: proportional > equal,False,5,0.122072,0.0009696736564432347,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus06,0,O3,Surplus: proportional > mixed,False,5,0.09541859999999999,0.0011057729694652514,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus06,0,O4,Gini: proportional > mixed,True,5,0.2005362,0.0017957222892195836,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus06,0,O5,Gini: proportional > equal,True,5,0.1218932,0.001043717940825012,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus06,0,O6,All four active at end: mixed > equal,True,5,0.12489999999999998,0.004694145289613434,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus06,0,O7,All four active at end: equal > proportional,True,5,0.03560000000000001,0.0009407443861113382,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus06,0,O8,Pool sustained: proportional > mixed,True,5,0.0631,0.0036653785616222543,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus06,0,O9,Surplus: distilled rule > proportional,False,5,0.0830488,0.00310034961576917,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus06,0,O10,Gini: proportional > distilled rule,False,5,0.155421,0.001861756697315742,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus06,0,O11,Active share: distilled rule > proportional,False,5,0.0991658,0.0031987119501449344,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus07,0,O1,Surplus: mixed > equal,False,5,0.021208399999999995,0.0006908364205801532,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus07,0,O2,Surplus: proportional > equal,False,5,0.1171138,0.0018757888847095762,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus07,0,O3,Surplus: proportional > mixed,False,5,0.0959054,0.002179007586035437,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus07,0,O4,Gini: proportional > mixed,True,5,0.23115739999999999,0.003481539553128757,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus07,0,O5,Gini: proportional > equal,True,5,0.1503214,0.0033067177321325692,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus07,0,O6,All four active at end: mixed > equal,True,5,0.088,0.0015165750888103116,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus07,0,O7,All four active at end: equal > proportional,True,5,0.035800000000000005,0.00029999999999999927,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus07,0,O8,Pool sustained: proportional > mixed,True,5,0.0744,0.007611504450501226,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus07,0,O9,Surplus: distilled rule > proportional,False,5,0.05450100000000001,0.00285517579143562,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus07,0,O10,Gini: proportional > distilled rule,False,5,0.155441,0.002995968607979728,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus07,0,O11,Active share: distilled rule > proportional,False,5,0.08448140000000001,0.0018552839836531718,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus08,0,O1,Surplus: mixed > equal,False,5,0.016957800000000002,0.00011834500411931208,0.163167,0.092969,0.226682,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2plaus08,0,O2,Surplus: proportional > equal,False,5,0.15694940000000002,0.0014826421550731617,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus08,0,O3,Surplus: proportional > mixed,False,5,0.13999160000000002,0.0015504839438059328,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus08,0,O4,Gini: proportional > mixed,True,5,0.2728454,0.0020538711887555165,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus08,0,O5,Gini: proportional > equal,True,5,0.23298800000000003,0.002074302461069744,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus08,0,O6,All four active at end: mixed > equal,True,5,0.1277,0.004437341546466755,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus08,0,O7,All four active at end: equal > proportional,True,5,0.0167,0.0013379088160259654,0.05,0.0,0.125,False,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,True
+F2plaus08,0,O8,Pool sustained: proportional > mixed,True,5,0.04989999999999998,0.003941446435003268,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus08,0,O9,Surplus: distilled rule > proportional,False,5,0.029374199999999996,0.0014576387549732565,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus08,0,O10,Gini: proportional > distilled rule,False,5,0.17111839999999998,0.0023140125237344745,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus08,0,O11,Active share: distilled rule > proportional,False,5,0.05754840000000001,0.0007438176254969996,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus09,0,O1,Surplus: mixed > equal,False,5,0.017635599999999998,0.0007124635850343508,0.163167,0.092969,0.226682,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2plaus09,0,O2,Surplus: proportional > equal,False,5,0.1333442,0.0012976627605044385,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus09,0,O3,Surplus: proportional > mixed,False,5,0.11570860000000001,0.0010299175015504862,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus09,0,O4,Gini: proportional > mixed,True,5,0.2368192,0.0016982595914641614,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus09,0,O5,Gini: proportional > equal,True,5,0.1620202,0.00213334805880335,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus09,0,O6,All four active at end: mixed > equal,True,5,0.0879,0.004145479465634826,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus09,0,O7,All four active at end: equal > proportional,True,5,0.0298,0.0006819090848492927,0.05,0.0,0.125,False,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus09,0,O8,Pool sustained: proportional > mixed,True,5,0.08979999999999999,0.004781736086402088,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus09,0,O9,Surplus: distilled rule > proportional,False,5,0.05354819999999999,0.002349184398892517,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus09,0,O10,Gini: proportional > distilled rule,False,5,0.13046259999999998,0.00161419133314487,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus09,0,O11,Active share: distilled rule > proportional,False,5,0.09013940000000001,0.0024805262868996206,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus10,0,O1,Surplus: mixed > equal,False,5,0.014223,0.00023011562311151324,0.163167,0.092969,0.226682,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2plaus10,0,O2,Surplus: proportional > equal,False,5,0.1750726,0.0015421337360942554,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus10,0,O3,Surplus: proportional > mixed,False,5,0.1608496,0.0013527741718409696,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus10,0,O4,Gini: proportional > mixed,True,5,0.30363439999999997,0.0015206230828183466,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus10,0,O5,Gini: proportional > equal,True,5,0.262093,0.0015708633613398667,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus10,0,O6,All four active at end: mixed > equal,True,5,0.0752,0.0036352441458587033,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus10,0,O7,All four active at end: equal > proportional,True,5,0.010100000000000001,0.0013910427743243558,0.05,0.0,0.125,False,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,True
+F2plaus10,0,O8,Pool sustained: proportional > mixed,True,5,0.1122,0.006296030495478883,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus10,0,O9,Surplus: distilled rule > proportional,False,5,-0.007341600000000015,0.0009745549548383641,0.132555,0.030374,0.222362,True,no,no,tie,tie,no,no,tie,tie,no,no,tie,tie,no,False
+F2plaus10,0,O10,Gini: proportional > distilled rule,False,5,0.1563714,0.0008884239753631118,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus10,0,O11,Active share: distilled rule > proportional,False,5,0.0392126,0.0008012952389725073,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus11,0,O1,Surplus: mixed > equal,False,5,0.0178928,0.00045457259046273273,0.163167,0.092969,0.226682,True,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,False
+F2plaus11,0,O2,Surplus: proportional > equal,False,5,0.1386058,0.0008680346421658525,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus11,0,O3,Surplus: proportional > mixed,False,5,0.12071299999999999,0.0012964356135188497,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus11,0,O4,Gini: proportional > mixed,True,5,0.2683488,0.0019868664122179957,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus11,0,O5,Gini: proportional > equal,True,5,0.2190834,0.001707003825420433,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus11,0,O6,All four active at end: mixed > equal,True,5,0.0923,0.005278730908087663,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F2plaus11,0,O7,All four active at end: equal > proportional,True,5,0.016900000000000002,0.0007314369419163895,0.05,0.0,0.125,False,yes,yes,yes,tie,yes,yes,yes,tie,yes,yes,yes,tie,yes,True
+F2plaus11,0,O8,Pool sustained: proportional > mixed,True,5,0.00030000000000001136,0.009647020265346182,0.275,0.05,0.475,True,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,False
+F2plaus11,0,O9,Surplus: distilled rule > proportional,False,5,0.03071580000000001,0.0021069844185470357,0.132555,0.030374,0.222362,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus11,0,O10,Gini: proportional > distilled rule,False,5,0.1741282,0.0008308995968226184,0.156529,0.096592,0.215494,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F2plaus11,0,O11,Active share: distilled rule > proportional,False,5,0.05835440000000001,0.0024629796507482584,0.186094,0.092027,0.277363,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,0,O1,Surplus: mixed > equal,False,10,0.033207799999999996,0.0011761837800464872,0.163167,0.092969,0.226682,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,0,O2,Surplus: proportional > equal,False,10,0.4001517,0.0015189757298185455,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,0,O3,Surplus: proportional > mixed,False,10,0.3669439,0.002220615072201594,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,0,O4,Gini: proportional > mixed,True,10,0.17698489999999997,0.0015851653502956017,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,0,O5,Gini: proportional > equal,True,10,0.17479280000000003,0.0015660505724770062,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F3,0,O6,All four active at end: mixed > equal,True,10,0.3022865,0.007446330553814184,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F3,0,O7,All four active at end: equal > proportional,True,10,-0.3550313,0.0056377822315162186,0.05,0.0,0.125,False,no,no,no,no,no,no,no,no,no,no,no,no,no,False
+F3,0,O8,Pool sustained: proportional > mixed,True,10,0.3190575,0.0045388626652989195,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F3,0,O9,Surplus: distilled rule > proportional,False,10,0.0011907,0.00175895733666915,0.132555,0.030374,0.222362,True,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,False
+F3,0,O10,Gini: proportional > distilled rule,False,10,0.006184899999999998,0.0023108107689726576,0.156529,0.096592,0.215494,True,yes,yes,tie,tie,yes,yes,tie,tie,tie,tie,tie,tie,yes,False
+F3,0,O11,Active share: distilled rule > proportional,False,10,0.008402200000000004,0.001439537323818547,0.186094,0.092027,0.277363,True,yes,yes,tie,tie,yes,yes,tie,tie,yes,yes,tie,tie,yes,False
+F3,1,O1,Surplus: mixed > equal,False,10,0.003499399999999997,0.0004055856451547023,0.163167,0.092969,0.226682,True,yes,tie,tie,tie,yes,tie,tie,tie,yes,tie,tie,tie,tie,False
+F3,1,O2,Surplus: proportional > equal,False,10,0.38598889999999997,0.0016036177395016666,0.269158,0.1909,0.347495,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,1,O3,Surplus: proportional > mixed,False,10,0.38248950000000004,0.001790608675221299,0.10599,0.013863,0.205709,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,1,O4,Gini: proportional > mixed,True,10,0.18854069999999998,0.0014838420479732104,0.272833,0.211751,0.334,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,1,O5,Gini: proportional > equal,True,10,0.1825316,0.00141119204299848,0.209145,0.146292,0.270715,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,True
+F3,1,O6,All four active at end: mixed > equal,True,10,0.0257029,0.003314215501106978,0.25,0.1,0.4,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,1,O7,All four active at end: equal > proportional,True,10,-0.44091130000000006,0.00669494852365905,0.05,0.0,0.125,False,no,no,no,no,no,no,no,no,no,no,no,no,no,False
+F3,1,O8,Pool sustained: proportional > mixed,True,10,0.7662761,0.004159041146038899,0.275,0.05,0.475,True,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,False
+F3,1,O9,Surplus: distilled rule > proportional,False,10,0.0020635000000000124,0.002121217874764922,0.132555,0.030374,0.222362,True,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,False
+F3,1,O10,Gini: proportional > distilled rule,False,10,0.0013366000000000072,0.0014833468254068039,0.156529,0.096592,0.215494,True,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,tie,False
+F3,1,O11,Active share: distilled rule > proportional,False,10,0.004259899999999972,0.002030885419657588,0.186094,0.092027,0.277363,True,yes,tie,tie,tie,yes,tie,tie,tie,tie,tie,tie,tie,tie,False

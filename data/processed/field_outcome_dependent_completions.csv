@@ -1,0 +1,5 @@
+success_coding,failure_coding,core_succ,core_fail,rest_succ,rest_fail,rd,fisher_p,H4_auc
+missing = absent,missing = absent,21,0,18,30,0.625,2.311244278175336e-07,0.888034188034188
+missing = absent,missing = present,21,2,18,28,0.5217391304347825,2.385376209012556e-05,0.8162393162393162
+missing = present,missing = absent,37,0,2,30,0.9375,1.5682663810449266e-17,0.9957264957264956
+missing = present,missing = present,37,2,2,28,0.882051282051282,1.0228701287627415e-14,0.9555555555555556

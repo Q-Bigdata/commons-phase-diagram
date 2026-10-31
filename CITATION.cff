@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this research software using its repository and commit; archival DOI pending."
+type: software
+title: "Commons phase diagram: research code"
+authors:
+  - family-names: Shi
+    given-names: Tianyu
+  - family-names: Qian
+    given-names: Hanqing
+  - family-names: Tu
+    given-names: Chengyi
+license: MIT
+repository-code: "https://github.com/Q-Bigdata/commons-phase-diagram"
