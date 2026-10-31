@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this research software using its repository and commit; archival DOI pending."
+message: "Please cite the archived v1.0.0 research software using the version DOI below."
 type: software
 title: "Commons phase diagram: research code"
 authors:
@@ -11,3 +11,7 @@ authors:
     given-names: Chengyi
 license: MIT
 repository-code: "https://github.com/Q-Bigdata/commons-phase-diagram"
+version: "v1.0.0"
+date-released: "2026-10-31"
+doi: "10.5281/zenodo.23836115"
+url: "https://zenodo.org/records/23836115"

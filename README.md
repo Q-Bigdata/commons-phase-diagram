@@ -3,7 +3,9 @@
 Associated manuscript: *Scarcity-contingent allocation with re-inclusion sustains a regenerating commons across models of behaviour*.
 Authors: Tianyu Shi, Hanqing Qian and Chengyi Tu.
 
-Repository: https://github.com/Q-Bigdata/commons-phase-diagram. No archival DOI has yet been issued.
+Repository: https://github.com/Q-Bigdata/commons-phase-diagram.
+Archived version **v1.0.0**: [10.5281/zenodo.23836115](https://doi.org/10.5281/zenodo.23836115), corresponding to source commit `a420e9ed452f95431d6c2934f791229426afdfbf` and [GitHub release v1.0.0](https://github.com/Q-Bigdata/commons-phase-diagram/releases/tag/v1.0.0).
+Citation metadata added on the main branch after archival does not change that fixed code version.
 
 ## Contents and installation
 
@@ -40,3 +42,5 @@ Experiment stages are listed at the end of `code/run_rev.py`. They use `REV_OUT`
 ## Licensing and citation
 
 MIT applies to the original code. It does not relicense third-party source data. The included CSV/JSON files are simulation outputs and aggregate results computed for this study; consult the original sources for their data-use terms. Author and software metadata are in `CITATION.cff`.
+
+Shi, T., Qian, H. & Tu, C. (2026). *Commons phase diagram: research code* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23836115.
